@@ -1,0 +1,125 @@
+
+#section2{
+  padding: 100px 0;
+}
+#section2 .best__item__contianer{
+    width: 1430px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#section2 .best__item{
+  width: 100%;
+  position: relative;
+}
+
+
+.test{
+  position: relative;
+}
+.test::after{
+  content: "";
+  display: block;
+  height: 640px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 170px;
+  background-color: #F5F5F5;
+}
+.best__wrap .best__slide{
+  width:476.667px;
+  padding: 0 3%;
+  flex-direction: column;
+}
+
+.best__wrap .best__slide a{
+  display: block;
+  width: 100%;
+}
+.best__wrap .best__slide .img__wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+  
+} 
+.best__wrap .best__slide .img__wrap img{
+  display: block;
+  max-width: 100%;
+  margin: 0 auto 0.625rem;
+  transform: scale(0.8);
+
+}
+.best__wrap .best__slide .desc{
+  padding:0 28px 28px;
+
+}
+.text__wrap {
+  font-weight: 700;
+  text-align: center;
+}
+.text__wrap h3{
+  font-size: 1.5rem;
+  color: #000;
+}
+.text__wrap span{
+  display: block;
+  font-size: 0.9rem;
+  color: var(--color--view);
+  margin-bottom: 8px;
+}
+.text__wrap p{
+  font-size: 0.875rem;
+  color: #585858;
+  font-weight: 400;
+}
+.desc{
+  visibility: hidden;
+}
+.desc__wrap{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 13px 20px;
+  border-top: 1px solid #393637;
+  border-bottom: 1px solid #393637;
+  margin-top: 44px;
+  font-size: 0.875rem;
+  justify-content: center;
+
+  /* opacity: 0; */
+}
+.desc__wrap dl{
+  width: 50%;
+  display: flex;
+}
+.desc__wrap dl > dt{
+  color: #fff;
+  width: 45%;
+}
+.desc__wrap dl > dd{
+  width: 65%;
+  color:#9D9F9E;
+}
+.keyword__wrap{
+  width: 100%;
+  margin: 20px -2px 0;
+  display: flex;
+}
+.keyword__wrap .keyword{
+  padding: 2px;
+  flex: 33.333333%;
+  max-width:33.333333%;
+  
+}
+.keyword__wrap .keyword span{
+  display: inline-block;
+  min-width: 80px;
+  padding:  0.5rem 0.8rem;
+  font-size: 12px;
+  border-radius: 9rem;
+  width: 100%;
+  background-color:rgba(255,255,255,.1) ;
+  color: #fff;
+}
