@@ -4,8 +4,8 @@
 
 -----------------------------------------------------------------
 
-next에다 css를 작성해야 슬라이드를 넘길 때 마다 가운데 적용됨
-1.swiper-slide-active는 현재 인덱스 슬라이드
+next에다 css를 작성해야 슬라이드를 넘길 때 마다 가운데 적용됨 <br>
+1.swiper-slide-active는 현재 인덱스 슬라이드 <br>
 2.swiper-slide-prev는 현재인덱스기준 전 슬라이드
 ```
 swiper-slide best__slide swiper-slide-next{
