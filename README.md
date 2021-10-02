@@ -1,1 +1,1 @@
-# swiper__slide--jquery
+# swiper라이브러리 연습.
